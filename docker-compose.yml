@@ -63,7 +63,7 @@ services:
     links:
       - pg
       - redis
-  # sidekiq (バックグラウンドジョブワーカー)
+  # sidekiq
   sidekiq:
     image: decidim-kinokawa
     build:
